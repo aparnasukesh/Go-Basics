@@ -1,0 +1,15 @@
+go 1.18
+
+use (
+	"./Condition Loop"
+	"./Counter Based Loop"
+	"./Looping Over Collection"
+	"./Struct "
+	./Arrays
+	./Branching
+	./Functions
+	./InfiniteLoop
+	./Maps
+	./Slices
+	./Variables
+)
