@@ -69,4 +69,15 @@ func main() {
 	default:
 		fmt.Println("default....")
 	}
+
+	// GO TO STATEMENT---------------------------------------------------------------------
+	c := 8
+	if c > 7 {
+		fmt.Println("c > 7")
+		goto mylabel
+	}
+mylabel:
+	if c > 7 {
+		fmt.Println("After label : c>7")
+	}
 }
