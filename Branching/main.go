@@ -76,8 +76,10 @@ func main() {
 		fmt.Println("c > 7")
 		goto mylabel
 	}
+	// f:=33 // It is not possible
 mylabel:
 	if c > 7 {
+		// mylabel // we can't declare like this
 		fmt.Println("After label : c>7")
 	}
 }
