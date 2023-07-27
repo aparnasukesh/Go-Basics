@@ -19,6 +19,9 @@ var var8 complex128
 // Boolean
 var var9 bool
 
+//Diffrent data type declaration in one line
+var a, b, c = 2.3, false, 100
+
 // String
 var var10 string
 var var11 string = "hello"
