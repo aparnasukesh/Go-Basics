@@ -13,4 +13,5 @@ use (
 	./Maps
 	./Slices
 	./Variables
+	./ValidationSample
 )
