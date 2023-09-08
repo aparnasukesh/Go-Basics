@@ -12,6 +12,6 @@ use (
 	./InfiniteLoop
 	./Maps
 	./Slices
-	./Variables
 	./ValidationSample
+	./Variables
 )

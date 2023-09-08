@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+package Client;
+
+option go_package = "/pb";
+
+service ClientManagment{
+    rpc SayHello(request)returns(response){}
+}
+
+message request{
+    string request= 1;
+}
+message response{
+    string response =1;
+}
